@@ -1,6 +1,6 @@
 {
-  "name": "Mart POS",
-  "short_name": "Mart POS",
+  "name": "Mart",
+  "short_name": "Mart",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",

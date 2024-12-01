@@ -13,6 +13,7 @@ export default function Home() {
         <div className="px-4 py-4 flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <Image
+              title="Mart"
               src="/mart-logo-dark.svg"
               alt="Mart Logo"
               width={34}
@@ -20,6 +21,7 @@ export default function Home() {
               className="h-7 w-auto"
             />
             <Image
+              title="Mart"
               src="/mart-logotipo.svg"
               alt="Mart"
               width={87.56}
@@ -47,7 +49,7 @@ export default function Home() {
         />
         <Card className="max-w-2xl shadow-none bg-transparent border-0 mx-auto">
           <CardHeader>
-            <CardTitle>
+            <CardTitle title="Inpulsa tu negocio con los servicios que ofrese Mart">
               <WordFadeIn
                 className="text-4xl font-bold text-center"
                 words="¡Estamos construyendo algo
@@ -57,13 +59,16 @@ export default function Home() {
           </CardHeader>
           <CardContent>
             <p className="text-center text-gray-600 mb-6">
-              <strong>Mart</strong> es una plataforma que desarrolla{" "}
-              <strong>soluciones innovadoras</strong> para ayudar a las empresas
-              a mejorar sus ventas y automatizar procesos <i>repetitivos</i>.
+              En <strong>Mart</strong> desarroyamos{" "}
+              <strong>soluciones innovadoras</strong> para ayudar a las{" "}
+              <strong>empresas</strong> a mejorar sus <strong>ventas</strong> y
+              automatizar procesos <i>repetitivos</i>.
             </p>
             <div className="flex justify-center">
               <Button variant="secondary" asChild size="lg">
-                <Link href="https://pos.mart.lat">Explora Mart POS</Link>
+                <Link target="_blank" href="https://pos.mart.lat">
+                  Explora Mart POS
+                </Link>
               </Button>
             </div>
           </CardContent>
