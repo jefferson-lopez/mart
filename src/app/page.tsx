@@ -7,7 +7,7 @@ import Particles from "@/components/ui/particles";
 
 export default function Home() {
   return (
-    <div className="flex flex-col h-[100vh] overflow-hidden min-h-screen">
+    <div className="flex flex-col h-[100dvh] overflow-hidden min-h-screen">
       {/* Header */}
       <header className="bg-card border-b">
         <div className="px-4 py-4 flex items-center justify-between">
@@ -76,7 +76,7 @@ export default function Home() {
       </main>
 
       {/* Footer */}
-      <footer className="bg-card border-t">
+      <footer className="">
         <div className="container  text-sm mx-auto px-4 py-4 text-center text-gray-600">
           © 2024 Mart Inc. Todos los derechos reservados.
         </div>
