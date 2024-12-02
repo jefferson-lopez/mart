@@ -7,8 +7,30 @@ const font = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Mart: Una plataforma para soluciones innovadoras",
-  description: "Mart es una plataforma para soluciones innovadoras",
+  title: "Mart: Plataforma Integral para Negocios y Gestión Empresarial",
+  description:
+    "Descubre Mart, la plataforma que transforma negocios con herramientas avanzadas de gestión empresarial, POS, autenticación y más.",
+  keywords: [
+    "Mart",
+    "Gestión Empresarial",
+    "POS",
+    "Autenticación",
+    "Herramientas",
+    "Integración",
+    "Negocios",
+    "Gestión de ventas",
+    "Gestión de clientes",
+    "Gestión de productos",
+    "Gestión de inventario",
+  ],
+  publisher: "Mart Inc.",
+  creator: "Jefferson Lopez",
+  robots: "index,follow",
+  category: "Gestión Empresarial",
+  applicationName: "Mart",
+  abstract:
+    "Mart es una plataforma que ofrece soluciones innovadoras para ayudar a las empresas a mejorar sus ventas y automatizar procesos repetitivos.",
+  generator: "Next.js",
 };
 
 export default function RootLayout({

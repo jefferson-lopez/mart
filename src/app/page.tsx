@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className="flex flex-col h-[100dvh] overflow-hidden min-h-screen">
       {/* Header */}
-      <header className="bg-card border-b">
+      <header className="">
         <div className="px-4 py-4 flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <Image
@@ -76,8 +76,8 @@ export default function Home() {
       </main>
 
       {/* Footer */}
-      <footer className="">
-        <div className="container  text-sm mx-auto px-4 py-4 text-center text-gray-600">
+      <footer>
+        <div className="container text-sm mx-auto px-4 py-4 text-center text-muted-foreground">
           © 2024 Mart Inc. Todos los derechos reservados.
         </div>
       </footer>
